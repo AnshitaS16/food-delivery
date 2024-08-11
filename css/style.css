@@ -14,7 +14,7 @@ section nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #FFF;
+    background: #ffffb3;
     position: fixed;
     right: 0;
     left: 0;
@@ -46,20 +46,20 @@ section nav ul li a{
 }
 
 section nav ul li a:hover{
-    color: #facc22;
+    color: #000000;
 }
 
 section nav .login a{
     color: #000;
     text-decoration: none;
-    border: 2px solid #facc22;
+    border: 2px solid #000;
     border-radius: 20px;
     padding: 7px 20px;
     transition: 0.3s;
 }
 
 section nav .login a:hover{
-    background: #facc22;
+    background: #00ccff;
     color: #fff;
 }
 
@@ -70,7 +70,7 @@ section nav .login a:hover{
 footer{
     width: 100%;
     padding: 30px 0 0 20px;
-    background: #eeeeee;
+    background: #ffffb3;
 }
 
 footer .footer_main{
