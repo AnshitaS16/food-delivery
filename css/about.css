@@ -4,14 +4,19 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.hero{
-    background-color: #f8f8f8;
+
+.logo img{
+    object-fit: cover;
+    height: 70px;
+    width: 60px;
 }
+
+
 .heading h1{
     color: #330d00;
     font-size: 55px;
     text-align: center;
-    margin-top: 5px;
+    margin-bottom: 50px;
 }
 .container{
     display: flex;
@@ -25,9 +30,8 @@
     flex: 1;
     width:6px;
     margin: 0 25px;
-    
-
 }
+
 .hero-content h2{
     font-size: 35px;
     margin-bottom: 20px;
@@ -43,7 +47,7 @@
 .hero-content button{
     width: 130px;
     height:30px;
-    background: #ff7200;
+    background: #facc22;
     border: none;
     margin-bottom: 5px;
     margin-left: 10px;
@@ -53,7 +57,7 @@
     transition: .4s ease;
 }
 .hero-content button:hover{
-    background-color:#ff7200;
+    background-color: #facc22;
     border: none;
     box-shadow: 3px 3px 0  2px black;
 }
@@ -87,7 +91,6 @@ img{
 .card-img:hover{
     height:170px;
     width:170px;
-
 }
 
 .card-img-1 {
