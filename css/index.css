@@ -1,0 +1,80 @@
+section .main{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../image/background_h.jpg);
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-size: cover;
+    background-position: 80%;
+    height: 100vh;
+    
+}
+
+section .main .main_text h1{
+    color: #fff;
+    font-size: 60px;
+    position: relative;
+    top: -25px;
+    left: 5%;
+}
+
+section .main .main_text h1 span{
+    color: #facc22;
+    font-family: polo;
+}
+
+section .main .main_text p{
+    color: #fff;
+    width: 650px;
+    position: relative;
+    top: 20px;
+    left: 5%;
+    line-height: 23px;
+    text-align: justify;
+}
+
+section .main .main_text .btn i{
+    margin-right: 8px;
+}
+
+section .main .main_text .btn{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #facc22;
+    padding: 10px 20px;
+    position: relative;
+    top: 100px;
+    left: 5%;
+    transition: 0.3s;
+}
+
+section .main .main_text .btn:hover{
+    color: #facc22;
+}
+
+section .main .main_text .btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #facc22;
+    z-index: -1;
+    transform: 0.3s;
+}
+
+section .main .main_text .btn:hover::before{
+    top: unset;
+    width: 100%;
+    bottom: 0;
+}
+
+section .main .main_image img{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 650px;
+    animation: animate 5s linear infinite;
+}
+
